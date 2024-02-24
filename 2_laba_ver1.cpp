@@ -110,8 +110,6 @@ int main()
 
             default:
                 cout << endl << "Invalid choice! Try again!" << endl;
-
-            
         }
     }
 
@@ -190,7 +188,7 @@ double trapez_method(double x_min, double x_max, int qty_segments)
     integral += (function(x_left_last) + function(x_right_last)) * last_step / 2;
     //integral += ((function(x_min + (qty_segments - 1) * step) + function(x_max)) / 2) * step;
 
-    return integral; // Умножаем на шаг для получения приближенного значения интеграла
+    return integral;
 }
 
 
