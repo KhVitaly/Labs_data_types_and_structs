@@ -79,7 +79,6 @@ int main()
                 break;
             }
 
-
             case 2: // Calculate integral WITH precision
             {
                 double precision{}; // точность
